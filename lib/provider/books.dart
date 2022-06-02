@@ -18,10 +18,10 @@ class BookData extends ChangeNotifier {
   List availableAudioBooks = [
     Book(
       id: 1,
-      title: "The Mask",
+      title: "Faceless Mask",
       type: 'Comic',
       description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus convallis est, quis dapibus elit gravida sit amet. Suspendisse malesuada interdum elit, sed feugiat purus. Mauris egestas vel nunc iaculis facilisis. Nam vel ipsum ex. Suspendisse cursus, ligula eu mollis pretium, neque turpis ullamcorper quam, sed scelerisque neque arcu quis metus. Maecenas sollicitudin pretium lectus et condimentum. In rhoncus dignissim neque, quis viverra felis vestibulum nec. Cras efficitur bibendum sem et dapibus. Sed bibendum, elit vel consequat sagittis, tellus nibh vulputate nisi, a aliquet odio orci quis tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur varius nunc vitae ornare fringilla. Vivamus nec consectetur arcu. Etiam lobortis egestas facilisis. Integer a molestie elit, id convallis sem. Pellentesque pulvinar eros condimentum augue tincidunt finibus.",
+          "The greatest and most important adventure of our lives is discovering who we really are. Yet, so many of us walk around either not really knowing or listening to an awful inner critic that gives us all the wrong ideas about ourselves. We mistakenly think of self-understanding as self-indulgence, and we carry on without asking the most important question we'll ever ask: Who am I really? As Mary Oliver put it, “what is it you plan to do with your one wild and precious life?”",
       publisher: "iStudio",
       rating: 4.6,
       imgUrl:
@@ -79,9 +79,9 @@ class BookData extends ChangeNotifier {
     Book(
       id: 5,
       title: "Follow Me To Ground",
-      type: 'History',
+      type: 'Novel',
       description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus convallis est, quis dapibus elit gravida sit amet. Suspendisse malesuada interdum elit, sed feugiat purus. Mauris egestas vel nunc iaculis facilisis. Nam vel ipsum ex. Suspendisse cursus, ligula eu mollis pretium, neque turpis ullamcorper quam, sed scelerisque neque arcu quis metus. Maecenas sollicitudin pretium lectus et condimentum. In rhoncus dignissim neque, quis viverra felis vestibulum nec. Cras efficitur bibendum sem et dapibus. Sed bibendum, elit vel consequat sagittis, tellus nibh vulputate nisi, a aliquet odio orci quis tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur varius nunc vitae ornare fringilla. Vivamus nec consectetur arcu. Etiam lobortis egestas facilisis. Integer a molestie elit, id convallis sem. Pellentesque pulvinar eros condimentum augue tincidunt finibus.",
+          "A haunted, surreal debut novel about an otherworldly young woman, her father, and her lover that culminates in a shocking moment of betrayal—one that upends our understanding of power, predation, and agency. One of Literary Hub’s Favorite Books of the Year A haunted, surreal debut novel about an otherworldly young woman, her father, and her lover that culminates in a shocking moment of betrayal—one that upends our understanding of power, predation, and agency.",
       publisher: "iStudio",
       rating: 4.6,
       imgUrl:
@@ -96,7 +96,7 @@ class BookData extends ChangeNotifier {
       title: "The HandMaid's Tale",
       type: 'Novel',
       description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus convallis est, quis dapibus elit gravida sit amet. Suspendisse malesuada interdum elit, sed feugiat purus. Mauris egestas vel nunc iaculis facilisis. Nam vel ipsum ex. Suspendisse cursus, ligula eu mollis pretium, neque turpis ullamcorper quam, sed scelerisque neque arcu quis metus. Maecenas sollicitudin pretium lectus et condimentum. In rhoncus dignissim neque, quis viverra felis vestibulum nec. Cras efficitur bibendum sem et dapibus. Sed bibendum, elit vel consequat sagittis, tellus nibh vulputate nisi, a aliquet odio orci quis tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur varius nunc vitae ornare fringilla. Vivamus nec consectetur arcu. Etiam lobortis egestas facilisis. Integer a molestie elit, id convallis sem. Pellentesque pulvinar eros condimentum augue tincidunt finibus.",
+          "The Handmaid's Tale is an American dystopian television series created by Bruce Miller, based on the 1985 novel of the same name by Canadian author Margaret Atwood. The series was ordered by the streaming service Hulu as a straight-to-series order of 10 episodes, for which production began in late 2016. The plot features a dystopia following a Second American Civil War wherein a theonomic, totalitarian society subjects fertile women, called Handmaids, to child-bearing slavery. June, a fertile woman, lives as a concubine to a Gileadan officer and his wife. While she is forced to agree to their strict rules and conditions, she hopes to be free and reunited with her daughter. ",
       publisher: "iStudio",
       rating: 4.6,
       imgUrl:
@@ -219,7 +219,7 @@ class BookData extends ChangeNotifier {
       title: "My Trueself",
       type: 'Comic',
       description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus convallis est, quis dapibus elit gravida sit amet. Suspendisse malesuada interdum elit, sed feugiat purus. Mauris egestas vel nunc iaculis facilisis. Nam vel ipsum ex. Suspendisse cursus, ligula eu mollis pretium, neque turpis ullamcorper quam, sed scelerisque neque arcu quis metus. Maecenas sollicitudin pretium lectus et condimentum. In rhoncus dignissim neque, quis viverra felis vestibulum nec. Cras efficitur bibendum sem et dapibus. Sed bibendum, elit vel consequat sagittis, tellus nibh vulputate nisi, a aliquet odio orci quis tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur varius nunc vitae ornare fringilla. Vivamus nec consectetur arcu. Etiam lobortis egestas facilisis. Integer a molestie elit, id convallis sem. Pellentesque pulvinar eros condimentum augue tincidunt finibus.",
+          "The greatest and most important adventure of our lives is discovering who we really are. Yet, so many of us walk around either not really knowing or listening to an awful inner critic that gives us all the wrong ideas about ourselves. We mistakenly think of self-understanding as self-indulgence, and we carry on without asking the most important question we'll ever ask: Who am I really? As Mary Oliver put it, “what is it you plan to do with your one wild and precious life?”",
       publisher: "Amazon",
       rating: 4.8,
       imgUrl:
@@ -249,7 +249,7 @@ class BookData extends ChangeNotifier {
       title: "Enemy",
       type: 'Comic',
       description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus convallis est, quis dapibus elit gravida sit amet. Suspendisse malesuada interdum elit, sed feugiat purus. Mauris egestas vel nunc iaculis facilisis. Nam vel ipsum ex. Suspendisse cursus, ligula eu mollis pretium, neque turpis ullamcorper quam, sed scelerisque neque arcu quis metus. Maecenas sollicitudin pretium lectus et condimentum. In rhoncus dignissim neque, quis viverra felis vestibulum nec. Cras efficitur bibendum sem et dapibus. Sed bibendum, elit vel consequat sagittis, tellus nibh vulputate nisi, a aliquet odio orci quis tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur varius nunc vitae ornare fringilla. Vivamus nec consectetur arcu. Etiam lobortis egestas facilisis. Integer a molestie elit, id convallis sem. Pellentesque pulvinar eros condimentum augue tincidunt finibus.",
+          "The existence or perceived existence of a collective enemy tends to increase the cohesiveness of the group. However, the identification and treatment of other entities as enemies may be irrational, and a sign of a psychological dysfunction. For example, group polarization may devolve into groupthink, which may lead members of the in group to perceive nonmembers or other groups as enemies even where the others present neither antagonism nor an actual threat.Paranoid schizophrenia is characterized by the irrational belief that other people, ranging from family members and personal acquaintances to celebrities seen on television, are personal enemies plotting harm to the sufferer. Irrational approaches may extend to treating impersonal phenomena not merely as conceptual enemies, but as sentient actors intentionally bringing strife to the sufferer.",
       publisher: "Amazon",
       rating: 4.3,
       imgUrl:

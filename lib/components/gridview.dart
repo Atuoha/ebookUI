@@ -21,7 +21,7 @@ class BookGrid extends StatelessWidget {
           return GestureDetector(
             onTap: () {
               Navigator.of(context).pushNamed(
-                DetailsPage.routeName,
+                BookDetails.routeName,
                 arguments: {
                   'id': products[index].id,
                 },

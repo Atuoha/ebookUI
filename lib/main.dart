@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'components/bottom_nav.dart';
+import 'screens/audio_book_details.dart';
 import 'screens/book_details.dart';
 
 void main() => runApp(const MyApp());
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(fontFamily: 'TiroTelugu'),
         home: const BottomNav(),
         routes: {
-          DetailsPage.routeName: (context)=> DetailsPage()
+          BookDetails.routeName: (context)=> BookDetails(),
+          AudioBookDetails.routeName: (context)=> AudioBookDetails(),
         },
       ),
     );
