@@ -32,7 +32,7 @@ class _BottomNavState extends State<BottomNav> {
         unselectedItemColor: liteColor,
         items: const [
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
+            icon: Icon(Icons.home_outlined),
             label: '',
           ),
           BottomNavigationBarItem(

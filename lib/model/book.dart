@@ -6,6 +6,7 @@ class Book {
   final String imgUrl;
   final String description;
   final double googleRating;
+  final String type;
   final DateTime dateTime;
 
   Book({
@@ -16,6 +17,7 @@ class Book {
     required this.dateTime,
     required this.imgUrl,
     required this.description,
+    required this.type,
     required this.googleRating,
   });
 }

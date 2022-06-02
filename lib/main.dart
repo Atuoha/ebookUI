@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'components/bottom_nav.dart';
+import 'screens/book_details.dart';
 
 void main() => runApp(const MyApp());
 
@@ -17,7 +18,9 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         theme: ThemeData(fontFamily: 'TiroTelugu'),
         home: const BottomNav(),
-        routes: {},
+        routes: {
+          DetailsPage.routeName: (context)=> DetailsPage()
+        },
       ),
     );
   }
