@@ -321,10 +321,10 @@ class BookData extends ChangeNotifier {
     ),
     Book(
       id: 8,
-      title: "The Starter of Something",
-      type: 'Comic',
+      title: "Son Of The Storm",
+      type: 'Play',
       description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas maximus convallis est, quis dapibus elit gravida sit amet. Suspendisse malesuada interdum elit, sed feugiat purus. Mauris egestas vel nunc iaculis facilisis. Nam vel ipsum ex. Suspendisse cursus, ligula eu mollis pretium, neque turpis ullamcorper quam, sed scelerisque neque arcu quis metus. Maecenas sollicitudin pretium lectus et condimentum. In rhoncus dignissim neque, quis viverra felis vestibulum nec. Cras efficitur bibendum sem et dapibus. Sed bibendum, elit vel consequat sagittis, tellus nibh vulputate nisi, a aliquet odio orci quis tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur varius nunc vitae ornare fringilla. Vivamus nec consectetur arcu. Etiam lobortis egestas facilisis. Integer a molestie elit, id convallis sem. Pellentesque pulvinar eros condimentum augue tincidunt finibus.",
+          "The novel takes place in the fictional continent of Oon, which is presumably pre-colonial Africa, inhabited by three distinct people: Mainlanders, Desertlander and Shashis; a combination of Mainlanders and Desertlanders. In the continent, Bassa is featured to be the strongest among the whole city-countries in the continent. The country is mainly inhabited by the Bassai, with immigrants who have to pass through different stages of Castes in the country. The Yalekutés who are not allowed to study, act as helpers known as Seconds to the Bassais and Pokotin caste as the working-class immigrants who are not allowed to study either. Dason , a shashi who is allowed to study because he was caught with the codex of Nogowu the mad Emperor of Bassa discovers that the things he learnt as a Jali Novitiate in the University of Bassa were actually true and not tales and myths as posed by the Jali Elders when a yellow skin from the Nameless Islands is seen in Bassa.",
       publisher: "iStudio",
       rating: 4.3,
       imgUrl:

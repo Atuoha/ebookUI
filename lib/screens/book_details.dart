@@ -188,12 +188,12 @@ class BookDetails extends StatelessWidget {
                               crossAxisAlignment: WrapCrossAlignment.center,
                               children: const [
                                 Icon(
-                                  Icons.play_arrow_outlined,
+                                  Icons.book_outlined,
                                   color: Colors.white,
-                                  size: 25,
+                                  size: 20,
                                 ),
                                 Text(
-                                  'Audio Book',
+                                  'EBook',
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 18,
